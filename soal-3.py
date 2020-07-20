@@ -1,4 +1,3 @@
-
 data_list = [5,3,2,8,1,4]
 new_list = []
 
@@ -17,5 +16,4 @@ for i in new_list:
     else:
         odds.append(i)
 newEvens= sorted(evens, reverse=True)
-
 print(odds[0],odds[1],newEvens[0],newEvens[1],odds[2],newEvens[2])
